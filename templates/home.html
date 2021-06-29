@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Live feed</h1>
+    <div class="content_section">
+      <div class="media">
+        <img src="{{ url_for('video_feed') }}">
+      </div>
+    </div>
+{% endblock content %}
